@@ -147,13 +147,13 @@ The smb-vuln-ms17-010 NSE script identified the host as VULNERABLE, with a HIGH 
 
 Other legacy SMB vulnerabilities were tested but returned negative or access denied responses, further narrowing the primary exploitation vector to MS17-010.
 
+Given the confirmed remote code execution vulnerability and the lack of required authentication, exploitation was deemed both feasible and highly reliable.
 
+### 4.3 Exploitation
 
+Following confirmation of MS17-010 exposure, a manual exploitation approach was selected using the AutoBlue-MS17-010 Python implementation. This allowed direct interaction with the exploit logic and payload configuration without relying on automated exploitation frameworks.
 
-
-
-
-
+Mostrar configuracion de exploit
 
 
 
